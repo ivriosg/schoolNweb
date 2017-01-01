@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+    <meta name="author" content="Ivan Rios">
+    <title>schoolNweb - Book</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+	    var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
+	</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+	  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">schoolNweb</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="ventajas.html">Ventajas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="book.html">Book</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header class="book">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="header-title">
+	                Portafolio
+	            </h1>
+                <hr>
+            </div>
+        </div>
+    </header>
+    
+    <section class="breadcrumb">
+	    <div class="container">
+		    <ol class="breadcrumb">
+				<li>
+					<a href="#">schoolNweb</a>
+				</li>
+				<li class="active">
+					Book
+				</li>
+			</ol>
+	    </div>
+    </section>
+    
+	<section>
+		<div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/book-thumbnail.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+	</section>
+
+	<section id="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<h1 class="principal">Contacto</h1>
+					<div class="descripcion-contacto col-xs-12">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus sem vitae est dapibus, ut dignissim enim scelerisque. 
+						</p>
+						<div class="col-sm-4">
+							<div class="icono-contacto">
+								<div class="icon">
+									<i class="fa fa-mobile" aria-hidden="true"></i>
+								</div>
+								<h3>
+									Teléfono
+								</h3>
+								<h4>
+									<a href="tel:5527273187">55 2727 3187</a>
+								</h4>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="icono-contacto">
+								<div class="icon">
+									<i class="fa fa-whatsapp" aria-hidden="true"></i>
+								</div>
+								<h3>
+									WhatsApp
+								</h3>
+								<h4>
+									<a href="tel:5527273187">55 2727 3187</a>
+								</h4>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="icono-contacto">
+								<div class="icon">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+								</div>
+								<h3>
+									Email
+								</h3>
+								<h4>
+									<a href="mailto:ivriosg@gmail.com">ivriosg@gmail.com</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+	
+	
+	<footer>
+		<p>
+			©Copyright 2016 - schoolNweb
+		</p>
+	</footer>
+	
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

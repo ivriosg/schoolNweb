@@ -1,0 +1,400 @@
+/* general */
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+}	
+.header-title {
+	font-family: 'Athiti', sans-serif;
+}
+.header-title,
+.header-subtitle {
+	text-align: center;
+}
+.header-content-inner hr {
+	border-width: 5px;
+	width: 10%;
+	color: #fff;
+}
+.principal {
+    text-align: center;
+    padding: 3%;
+}
+#button {
+	text-align: center;
+    margin: 20px 0;
+}
+.breadcrumb {
+    padding: 8px 15px 0 15px;
+}
+.scrollToTop{
+	width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0,0,0,.075);
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+	/*display:none;
+	background: url('arrow_up.png') no-repeat 0px 20px;*/
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+
+/* menu */
+nav#mainNav {
+    background: rgba(0, 0, 0, 0.6);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+}
+.navbar-default {
+	border: none;
+}
+
+
+/* header */
+.home {
+	min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/background-schoolnweb.jpg');
+    color: #fff;
+}
+.home .header-content-inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+.bounce-arrow {
+	width: 100%;
+    position: absolute;
+    font-size: 300%;
+    bottom: 5%;
+}
+.arrow {
+    text-align: center;
+}
+
+/* nosotros */
+#nosotros {
+	padding: 0 0 5% 0;
+}
+
+/* ventajas */
+#ventajas {
+	padding: 0 0 5% 0;
+}
+.fig-ventaja {
+	background: #dadada;
+    border-radius: 50%;
+    display: table;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    width: 120px;
+    z-index: 1;
+}
+.icono-ventaja {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.icono-ventaja i {
+    font-size: 60px;
+    color: #54102E;
+    z-index: 9;
+    position: relative;
+}
+.titulo-ventaja {
+	font-family: 'Athiti', sans-serif;
+	min-height: 40px;
+    text-align: center;
+}
+.descripcion-ventaja {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+/* servicios */
+#servicio {
+    background: #222;
+    color: #fff;
+    padding: 0 0 5% 0;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 35px solid #222222;
+    margin: 0 auto;
+}
+#servicio .principal {
+	color:#fff;
+}
+.titulo-servicio {
+	font-family: 'Athiti', sans-serif;
+    min-height: 40px;
+    text-align: center;
+}
+.icono-servicio {
+    text-align: center;
+}
+.icono-servicio i {
+    font-size: 60px;
+}
+
+/* book */
+.no-padding {
+    padding: 0;
+}
+.no-gutter>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.portfolio-box:hover .portfolio-box-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: .7;
+}
+.project-name {
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+    font-size: 2em;
+    color: #fff;
+    display: none;
+}
+.portfolio-box:hover .project-name {
+	display: block;
+	margin-top:100px;
+}
+.background-book {
+    background: #222;
+    padding: 5% 0 5% 0;
+    color: #fff;
+    text-align: center;
+}
+.background-book h3{
+	margin: 0;
+}
+
+/* contacto */
+#contacto {
+	padding: 0 0 5% 0;
+}
+.icono-contacto {
+    border: 2px solid #222;
+    padding: 0 0 30px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.icon {
+    background: #fafafa;
+    padding: 20px;
+}
+.icono-contacto i {
+    font-size: 60px;
+    color: #54102E;
+    z-index: 9;
+    position: relative;
+}
+
+
+/* footer */
+footer {
+    background: #222;
+    padding: 3%;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+}
+#footer-right {
+    text-align: right;
+    padding: 10px 0;
+}
+#footer-left {
+	padding: 10px 0;
+}
+
+
+/* portfolio masonry */
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+/* pagina nosotros */
+.nosotros {
+	min-height: 50vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/nosotros.jpg');
+    color: #fff;
+}
+.nosotros .header-content-inner {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+#vision .image,
+#mision .image {
+    text-align: center;
+}
+#titulo-nosotros {
+	font-family: 'Athiti', sans-serif;
+	min-height: 40px;
+    text-align: center;
+}
+.descripcion-mision,
+.descripcion-vision {
+	font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+/* pagina ventajas */
+.ventajas {
+	min-height: 50vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/ventajas.jpg');
+    color: #fff;
+}
+.ventajas .header-content-inner {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+
+/* pagina servicios */
+.servicio {
+	min-height: 50vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/servicios.jpg');
+    color: #fff;
+}
+.servicio .header-content-inner {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+#service {
+    padding: 20px 0;
+}
+
+/* pagina book */
+.book {
+	min-height: 50vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/book.jpg');
+    color: #fff;
+}
+.book .header-content-inner {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+
+/* pagina contacto */
+.contact {
+	min-height: 50vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+	background-image: url('../img/contacto.jpg');
+    color: #fff;
+}
+.contact .header-content-inner {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+    width: 100%;
+}
+
+/* media query movil */
+@media screen and (max-width:768px){
+	/* menu */
+	.navbar-default .navbar-nav>li>a {
+	    color: #fafafa;
+	    text-align: center;
+	}	
+	#service {
+    	padding: 0;
+	}
+}
